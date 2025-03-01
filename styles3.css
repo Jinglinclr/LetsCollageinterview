@@ -1,0 +1,1058 @@
+/* Total */
+:root{
+    
+    --background-color: black;
+    --text-color: #ffffff;  
+    
+    @media screen and (min-width: 1024px){
+        margin: 0 auto;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+}
+
+
+.dark-mode{
+    --background-color: #ffffff;
+    --text-color: #black;
+
+    @media screen and (min-width: 1024px) {
+        .dark-mode .site-nav__links {
+            border-bottom: 1px solid var(--text-color);
+        }
+    }
+    
+}
+
+.wrapper {
+    max-width: none !important; 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+
+body{
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+/* LetsCollage */
+h1{
+    font-size: 60px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    text-align: left;
+    margin-left: 2rem;
+    line-height: 58px;
+    word-spacing: -50%;
+    margin-top: 1rem;
+
+
+    text-shadow: -5px 1px 0 #696969 ;
+
+    @media screen and (min-width: 1024px) {   
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        display: block;
+        
+    }
+    
+
+}
+
+/* Title */
+
+.heading{
+  
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-weight: lighter;
+    font-weight: -500%;
+    font-size: 36px;
+    line-height: 50px;
+    word-spacing: -50%;
+
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+
+/* Collage is an..... */
+
+.subtitle{
+    display: block;
+  font-family: "Maven Pro", sans-serif;
+  font-weight:100;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 36px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.scissors {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.scissors img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 20%; 
+    height: auto; 
+}
+
+.lead-in{
+  font-family: "Libre Bodoni", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: auto;
+  word-spacing: 10%;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.lead-in2{
+    font-family: "Libre Bodoni", serif;
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 29px;
+    word-spacing: 10%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+/* Date */
+
+.dateandname{
+    font-family: "Maven Pro";
+    font-size: 16px;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: .5rem;
+}
+
+/* Image size */
+
+.firstimg{
+    justify-content: center;
+	height: auto;
+	max-width: 100%;
+    margin-left: 1rem;
+
+    @media screen and (min-width: 1024px) {
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 80%;
+            height: auto;
+            border-radius: 3rem;
+        }
+    }
+    
+}
+
+/* Intro */
+.intro{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.intro2{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+    margin-bottom: 5rem;
+
+}
+
+
+.textimg1{
+	width: auto;
+	height: auto;
+    margin-left: .5rem;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 1024px) {
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 60%;
+            height: auto;
+            border-radius: 3rem;
+        }
+    }
+}
+
+.textimg2{
+	width: auto;
+	height: auto;
+    margin-left: .5rem;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 1024px) {
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 50%;
+            height: auto;
+            border-radius: 3rem;
+        }
+    }
+}
+
+.introimg1{
+	width: 50%;
+	height: 20%;
+    margin-top: 5rem;
+    margin-left: 7rem;
+
+    @media screen and (min-width: 1024px) {
+        .container {
+            display: flex;
+            justify-content:left;
+        }
+    
+        img {
+            max-width: 30%;
+            height: auto;
+            margin-left: 100px;
+            border-radius: 3rem;
+        }
+    }
+}
+
+.introimg2{
+	width: 50%;
+	height: 20%;
+    margin-top: 5rem;
+    margin-left: 7rem;
+
+    @media screen and (min-width: 1024px) {
+        .container {
+            display: flex;
+            justify-content: right;
+        }
+    
+        img {
+            max-width: 30%;
+            margin-left: 600px;
+            height: auto;
+            border-radius: 3rem;
+        }
+    }
+}
+
+
+/* Author */
+
+h3{
+    font-family: "Inria Serif", Serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    line-height: 10px;
+    margin-bottom: 3rem;
+}
+
+h4{
+    font-family: "Inria Serif", Serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    line-height: 10px;
+    margin-bottom: 3rem;
+
+    @media screen and (min-width: 1024px){
+        margin-left: 600px;
+        }
+}
+.kevin{
+    font-family: "Inria Serif", Serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    line-height: 20px;
+
+    @media screen and (min-width: 1024px){
+        margin-right: 600px;
+    }
+}
+
+.kevin2{
+    font-family: "Inria Serif", Serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    line-height: 20px;
+    margin-bottom: 10rem;
+
+    @media screen and (min-width: 1024px){
+    margin-left: 600px;
+    
+    }
+}    
+
+
+/* Interview */
+
+.question{
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+    margin-left: 1rem;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 10%;
+        margin-right: 10%;
+}
+}
+
+.answer{
+    font-family: "Inria Serif", serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 1rem;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 10%;
+        margin-right: 10%;
+}
+}
+
+
+/* Light */
+.mode-btn {
+	position: sticky;
+	font-size: var(--size-100);
+	top: var(--size-100);
+	left: 100%;
+	outline: 0;
+	margin-top: 2rem;
+	margin-right: 0.9rem;
+	border: 1px solid var(--color-highlight);
+	padding: var(--size-080) var(--size-100);
+	color: var(--color-text);
+	background-color: var(--color-page-bg);
+	z-index: 100;
+
+    @media screen and (min-width:1024px) {
+        display: flex;
+        justify-items: right;
+        }
+    
+}
+
+/* Hover effect */
+.active1{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+
+    }
+}
+
+.active1:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image1.jpg');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+
+}
+
+.active2{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+
+    }
+
+}
+
+.active2:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image2.jpeg');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+
+}
+
+.active3{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        
+    }
+
+}
+
+.active3:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image3.jpeg');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+}
+
+.active4{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        
+    }
+}
+
+.active4:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image4.jpg');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+   
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+
+}
+
+
+/* active5 */
+
+.active5 {
+    margin-top: 5rem;
+    display:block;
+    border: #ffffff 1px solid;
+    border-radius: 0;
+    padding: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    transition: ease-out .5s;
+    position: relative; 
+
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+.active5:hover {
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+}
+
+.active5::before {
+    content: "";
+    background-image: url('../images/image1.jpg');
+    background-position: center;
+    background-size: cover; 
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity .8s ease-in; 
+}
+
+.active5:hover::before {
+    opacity: .5; 
+}
+
+/* active6 */
+.active6 {
+    margin-top: 1rem;
+    display:block;
+    border: #ffffff 1px solid;
+    border-radius: 0;
+    padding: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    transition: ease-out .5s;
+    position: relative; 
+    
+    
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.active6:hover {
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+}
+
+.active6::before {
+    content: "";
+    background-image: url('../images/Erin.jpg.webp');
+    background-position: center;
+    background-size: cover; 
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity .8s ease-in; 
+    z-index: -1; 
+}
+
+.active6:hover::before {
+    opacity: .5; 
+}
+
+/* biede */
+.site-nav{
+    margin-top: 3rem;
+
+    @media screen and (min-width:1024px) {
+       margin-top: 0;
+        
+    }
+}
+
+
+.site-nav__links{
+
+    display: none;
+    animation: from-top-to-bottom 1s
+    ease-out;
+
+    .show-menu & {
+        display: block;
+    }
+
+    @media screen and (min-width: 1024px) {
+       
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%; 
+            margin: 0 auto; 
+            padding: 1rem 0; 
+            border-bottom: 1px solid;
+        
+    
+        .site-nav__links li {
+            margin: 0 1.5rem; 
+            position: relative;
+        }
+    
+        .site-nav__links li::before, .site-nav__links li::after {
+            content: '';
+            position: absolute;
+            bottom: -0.5rem; 
+            width: 1rem;
+            height: 1px;
+            background-color: #ffffff;
+        }
+    
+        h1 {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 3rem;
+        }
+    }
+    }
+    
+
+    li{
+        margin-bottom:.5rem;
+    }
+     a{
+        font-size: 1.125rem;
+        text-decoration:none;  
+        display: block;
+        border: var(--text) 1px solid;
+        border-radius:.5rem;
+        padding:.5rem;
+        text-align:center;
+
+        &:hover{
+            padding-top: .25rem;
+            padding-bottom: .75rem;
+        }
+      
+       
+        @media screen and (min-width:1024px) {
+            border-radius: 0;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-right-width:0;
+        }
+    }
+    li:first-child a {
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+    }
+    li:last-child a{
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+        border-right-width: 1px;
+    }
+
+
+
+.site-nav__links{
+    @keyframes from-top-to-bottom {
+    0% {
+        transform: translateY(-20%);
+    
+    }
+    100% {
+        transform: translateY(0%);
+    }
+    }
+}
+
+
+.site-nav__button{
+    position:absolute;
+    top: 3rem;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: var(--text) 1px solid;
+    border-radius: .5rem;
+    padding: .75rem;
+
+    @media screen and (min-width:1024px){
+        display: none;
+    }
+
+    svg{
+        display: block;
+    }
+}
+
+.bottomtext {
+    font-family: 'Maven Pro', Serif;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    padding: 100px 0; 
+    text-align: center; 
+    z-index: 1;
+    color: #ffffff; 
+
+    
+    width: 100%; 
+    margin: 0; 
+}
+
+.bottomtext::before {
+    content: '';
+    position: absolute;    
+    width:100vw;
+    height: 100%; 
+    top: 0;
+    left: 50%;
+    background-image: url('../images/bottom.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+
+    left: calc(-50vw+50%);
+    transform: translateX(-50%);
+}
+
+
+@media screen and (min-width: 1024px) {
+    .bottomtext {
+        padding: 150px 0; 
+        margin-top: 10rem;
+    }
+}
+
+
+
+/* Erin */
+.heading2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.active9{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        
+    }
+
+}
+
+.active9:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #fd0000;
+
+    background-image: url('../images/image5.jpg');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+
+}
+
+.active10{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        
+    }
+
+}
+
+.active10:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image6.jpg');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+
+}
+
+.active7{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        
+    }
+
+}
+
+.active7:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image7.png');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+}
+
+.active8{
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.5s;
+    outline:none;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+       
+    }
+
+}
+
+.active8:hover{
+    box-shadow: inset 500px #ffffff 0 0 0;
+    cursor: pointer;
+    color: #ff0000;
+
+    background-image: url('../images/image8.webp');
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+
+    @media screen and (min-width:1024px) {
+        box-shadow: inset 500px 0 0 0 var(--background-color);
+        cursor: pointer;
+        color: var(--text-color);
+        transition: ease-in .5s;
+    }
+
+}
+
+.subtitle2{
+    font-family: "Maven Pro";
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.dateandname2{
+    font-family: "Maven Pro";
+    text-align: center;
+    font-size: 14px;
+    margin-top: .5rem;
+    margin-bottom: 10rem;
+}
+
+.lead-title3{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 10%;
+        margin-right: 10%;
+}
+}
+
+.lead-in3{
+    font-family: "Libre Bodoni";
+    display: block;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+    line-height: 25px;
+    font-size: 18px;
+
+    @media screen and (min-width:1024px) {
+        margin-left: 10%;
+        margin-right: 10%;
+}
+}
+
+.flower {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.flower img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 10%; 
+    height: auto; 
+}
+
+.textimg{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   justify-content: center;
+   align-content: center;
+   margin-left: .5rem;
+
+   @media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 60%;
+        height: auto;
+        border-radius: 3rem;
+    }
+}
+
+}
+
+.kevinintro2{
+    margin-left: 1rem;
+    font-family: "Mavon Pro";
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10rem;
+
+    @media screen and (min-width: 1024px) {
+   margin-left: 600px;
+    }
+}
+
+
+
+
+.bottomtext2 {
+    font-family: 'Maven Pro', Serif;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    padding: 100px 0; 
+    text-align: center; 
+    z-index: 1;
+    color: #ffffff; 
+
+
+    width: 100; 
+    margin: 0; 
+}
+
+.bottomtext2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-image: url('../images/Erin.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.landingintro{
+    font-family: "Mavon Pro";
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 22px;
+}
