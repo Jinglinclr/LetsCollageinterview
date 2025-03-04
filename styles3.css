@@ -1,15 +1,15 @@
 /* Total */
-@media screen and (min-width: 1024px){
 :root{
     
     --background-color: black;
     --text-color: #ffffff;  
-    
+}
+@media screen and (min-width: 1024px){
+	:root{
         margin: 0 auto;
         margin-left: 5rem;
         margin-right: 5rem;
-    }
-
+	}
 }
 
 
