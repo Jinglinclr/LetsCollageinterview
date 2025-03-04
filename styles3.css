@@ -418,7 +418,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image1.jpg');
+    background-image: url('./image1.jpg');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -451,7 +451,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image2.jpeg');
+    background-image: url('./image2.jpeg');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -484,7 +484,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image3.jpeg');
+    background-image: url('./image3.jpeg');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -515,7 +515,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image4.jpg');
+    background-image: url('./image4.jpg');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -555,7 +555,7 @@ h4{
 
 .active5::before {
     content: "";
-    background-image: url('/image1.jpg');
+    background-image: url('./image1.jpg');
     background-position: center;
     background-size: cover; 
     opacity: 0;
@@ -595,7 +595,7 @@ h4{
 
 .active6::before {
     content: "";
-    background-image: url('/Erin.jpg.webp');
+    background-image: url('./Erin.jpg.webp');
     background-position: center;
     background-size: cover; 
     opacity: 0;
@@ -760,7 +760,7 @@ h4{
     height: 100%; 
     top: 0;
     left: 50%;
-    background-image: url('/bottom.jpg');
+    background-image: url('./bottom.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.5;
@@ -812,7 +812,7 @@ h4{
     cursor: pointer;
     color: #fd0000;
 
-    background-image: url('/image5.jpg');
+    background-image: url('./image5.jpg');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -845,7 +845,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image6.jpg');
+    background-image: url('./image6.jpg');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -878,7 +878,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image7.png');
+    background-image: url('./image7.png');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -910,7 +910,7 @@ h4{
     cursor: pointer;
     color: #ff0000;
 
-    background-image: url('/image8.webp');
+    background-image: url('./image8.webp');
     background-position: center;
     opacity: .5;
     z-index: -1;
@@ -1039,7 +1039,7 @@ h4{
     position: absolute;
     top: 0;
     left: 50%;
-    background-image: url('/Erin.jpg.webp');
+    background-image: url('./Erin.jpg.webp');
     background-size: cover;
     background-position: center;
     opacity: 0.5;
